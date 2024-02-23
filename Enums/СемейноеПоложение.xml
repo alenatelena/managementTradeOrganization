@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="9bc9caee-a5af-475b-a4a5-62ed29b8975b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СемейноеПоложение" category="Ref">
+				<xr:TypeId>6b86811f-b9fb-474b-a2d0-455f498223a4</xr:TypeId>
+				<xr:ValueId>67b2e96f-71fb-45cc-9846-73c0f1a7c975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СемейноеПоложение" category="Manager">
+				<xr:TypeId>c9e10a08-a62c-4434-9f88-ffcb85693da3</xr:TypeId>
+				<xr:ValueId>67a90278-71c9-4f4b-8751-0e8af2e05abb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СемейноеПоложение" category="List">
+				<xr:TypeId>a7da0f25-8a51-4712-8e04-2c8d3e93a5e6</xr:TypeId>
+				<xr:ValueId>bc5b0182-df08-4b17-bb67-c37e222c156c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СемейноеПоложение</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейное положение сотрудника</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm>Enum.СемейноеПоложение.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="629ca743-008d-4a38-8f78-b0feb427bef2">
+				<Properties>
+					<Name>РазведенРазведена</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разведен/Разведена</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="946c3ee2-0481-4a43-851e-afd6777d2db2">
+				<Properties>
+					<Name>ЖенатЗамужем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Женат/Замужем</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="535212a0-1582-420f-9a04-ea3975233478">
+				<Properties>
+					<Name>ХолостНеЗамужем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Холост/НеЗамужем</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+	<Item id="f72ac2ea-6b2c-4695-b8da-c008c2f027d7">
+		<Name>Администрация</Name>
+		<Code>000000001</Code>
+		<Description>Администрация</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="072b7786-bb6b-4110-a6af-878260181d80">
+				<Name>Филиал</Name>
+				<Code>000000002</Code>
+				<Description>Филиал</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="eb87eaf8-0314-4465-b699-86daca415d9b">
+				<Name>ЦентральнаяБухгалтерия</Name>
+				<Code>000000003</Code>
+				<Description>Центральная бухгалтерия</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e990d1f4-700e-4b65-9641-58a37b5d97c0">
+		<Name>Склад</Name>
+		<Code>000000004</Code>
+		<Description>Склад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
